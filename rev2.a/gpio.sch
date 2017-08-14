@@ -1,0 +1,899 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SpartanMiniProtoShield-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PMOD_CONN_02X06 JA1
+U 1 1 589ECA19
+P 5495 1595
+F 0 "JA1" H 5435 1255 50  0000 C CNN
+F 1 "PMA" H 5490 1935 50  0000 C CNN
+F 2 "spartan-mini:Pin_Header_Straight_2x06" H 5495 395 50  0001 C CNN
+F 3 "" H 5495 395 50  0001 C CNN
+	1    5495 1595
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMOD_CONN_02X06 JB1
+U 1 1 589F1739
+P 5480 2770
+F 0 "JB1" H 5420 2435 50  0000 C CNN
+F 1 "PMB" H 5475 3105 50  0000 C CNN
+F 2 "spartan-mini:Pin_Header_Straight_2x06" H 5480 1570 50  0001 C CNN
+F 3 "" H 5480 1570 50  0001 C CNN
+	1    5480 2770
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMOD_CONN_02X06 JD1
+U 1 1 589F2D63
+P 8925 2755
+F 0 "JD1" H 8865 2420 50  0000 C CNN
+F 1 "PMD" H 8920 3090 50  0000 C CNN
+F 2 "spartan-mini:Pin_Header_Straight_2x06" H 8925 1555 50  0001 C CNN
+F 3 "" H 8925 1555 50  0001 C CNN
+	1    8925 2755
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMOD_CONN_02X06 JC1
+U 1 1 589E75D9
+P 8965 1650
+F 0 "JC1" H 8895 1310 50  0000 C CNN
+F 1 "PMC" H 8960 1985 50  0000 C CNN
+F 2 "spartan-mini:Pin_Header_Straight_2x06" H 8965 450 50  0001 C CNN
+F 3 "" H 8965 450 50  0001 C CNN
+	1    8965 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PMOD_CONN_02X06 JE1
+U 1 1 589F2057
+P 8915 3910
+F 0 "JE1" H 8855 3575 50  0000 C CNN
+F 1 "PME" H 8910 4245 50  0000 C CNN
+F 2 "spartan-mini:Pin_Header_Straight_2x06" H 8915 2710 50  0001 C CNN
+F 3 "" H 8915 2710 50  0001 C CNN
+	1    8915 3910
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X34 P2
+U 1 1 59677BA3
+P 3500 3310
+F 0 "P2" H 3578 3351 50  0000 L CNN
+F 1 "CONN_01X34" H 3578 3260 50  0000 L CNN
+F 2 "socket_strip:Socket_Strip_Straight_1x34" H 3500 3310 50  0001 C CNN
+F 3 "" H 3500 3310 50  0001 C CNN
+	1    3500 3310
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X34 P1
+U 1 1 59677BE7
+P 1810 3310
+F 0 "P1" H 1888 3351 50  0000 L CNN
+F 1 "CONN_01X34" H 1888 3260 50  0000 L CNN
+F 2 "socket_strip:Socket_Strip_Straight_1x34" H 1810 3310 50  0001 C CNN
+F 3 "" H 1810 3310 50  0001 C CNN
+	1    1810 3310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5745 1445 5955 1445
+Text Label 5955 1445 2    60   ~ 0
+PMA5
+Wire Wire Line
+	5245 1445 5035 1445
+Text Label 5035 1445 0    60   ~ 0
+PMA1
+Wire Wire Line
+	5245 1545 5035 1545
+Text Label 5035 1545 0    60   ~ 0
+PMA2
+Wire Wire Line
+	5245 1645 5035 1645
+Text Label 5035 1645 0    60   ~ 0
+PMA3
+Wire Wire Line
+	4965 1745 5245 1745
+Wire Wire Line
+	5245 1845 5035 1845
+Text Label 5035 1845 0    60   ~ 0
++3V3
+Wire Wire Line
+	5745 1345 5955 1345
+Text Label 5955 1345 2    60   ~ 0
+PMA4
+Wire Wire Line
+	5745 1645 5955 1645
+Text Label 5955 1645 2    60   ~ 0
+PMA7
+Wire Wire Line
+	5745 1545 5955 1545
+Text Label 5955 1545 2    60   ~ 0
+PMA6
+Wire Wire Line
+	5245 1345 5035 1345
+Text Label 5035 1345 0    60   ~ 0
+PMA0
+Wire Wire Line
+	5745 1845 5955 1845
+Text Label 5955 1845 2    60   ~ 0
++3V3
+Wire Wire Line
+	4965 1745 4965 1960
+$Comp
+L GND #PWR01
+U 1 1 5968D57A
+P 4965 1960
+F 0 "#PWR01" H 4965 1710 50  0001 C CNN
+F 1 "GND" H 4970 1787 50  0000 C CNN
+F 2 "" H 4965 1960 50  0001 C CNN
+F 3 "" H 4965 1960 50  0001 C CNN
+	1    4965 1960
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 1745 5745 1745
+Wire Wire Line
+	6025 1745 6025 1960
+$Comp
+L GND #PWR02
+U 1 1 5968D5AA
+P 6025 1960
+F 0 "#PWR02" H 6025 1710 50  0001 C CNN
+F 1 "GND" H 6030 1787 50  0000 C CNN
+F 2 "" H 6025 1960 50  0001 C CNN
+F 3 "" H 6025 1960 50  0001 C CNN
+	1    6025 1960
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5730 2620 5940 2620
+Text Label 5940 2620 2    60   ~ 0
+PMB5
+Wire Wire Line
+	5730 2520 5940 2520
+Text Label 5940 2520 2    60   ~ 0
+PMB4
+Wire Wire Line
+	5730 2820 5940 2820
+Text Label 5940 2820 2    60   ~ 0
+PMB7
+Wire Wire Line
+	5730 2720 5940 2720
+Text Label 5940 2720 2    60   ~ 0
+PMB6
+Wire Wire Line
+	5730 3020 5940 3020
+Text Label 5940 3020 2    60   ~ 0
++3V3
+Wire Wire Line
+	6010 2920 5730 2920
+Wire Wire Line
+	6010 2920 6010 3135
+$Comp
+L GND #PWR03
+U 1 1 5968D6D2
+P 6010 3135
+F 0 "#PWR03" H 6010 2885 50  0001 C CNN
+F 1 "GND" H 6015 2962 50  0000 C CNN
+F 2 "" H 6010 3135 50  0001 C CNN
+F 3 "" H 6010 3135 50  0001 C CNN
+	1    6010 3135
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5230 2620 5020 2620
+Text Label 5020 2620 0    60   ~ 0
+PMB1
+Wire Wire Line
+	5230 2720 5020 2720
+Text Label 5020 2720 0    60   ~ 0
+PMB2
+Wire Wire Line
+	5230 2820 5020 2820
+Text Label 5020 2820 0    60   ~ 0
+PMB3
+Wire Wire Line
+	4950 2920 5230 2920
+Wire Wire Line
+	5230 3020 5020 3020
+Text Label 5020 3020 0    60   ~ 0
++3V3
+Wire Wire Line
+	5230 2520 5020 2520
+Text Label 5020 2520 0    60   ~ 0
+PMB0
+Wire Wire Line
+	4950 2920 4950 3135
+$Comp
+L GND #PWR04
+U 1 1 5968D762
+P 4950 3135
+F 0 "#PWR04" H 4950 2885 50  0001 C CNN
+F 1 "GND" H 4955 2962 50  0000 C CNN
+F 2 "" H 4950 3135 50  0001 C CNN
+F 3 "" H 4950 3135 50  0001 C CNN
+	1    4950 3135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9215 1500 9425 1500
+Text Label 9425 1500 2    60   ~ 0
+PMC5
+Wire Wire Line
+	9215 1400 9425 1400
+Text Label 9425 1400 2    60   ~ 0
+PMC4
+Wire Wire Line
+	9215 1700 9425 1700
+Text Label 9425 1700 2    60   ~ 0
+PMC7
+Wire Wire Line
+	9215 1600 9425 1600
+Text Label 9425 1600 2    60   ~ 0
+PMC6
+Wire Wire Line
+	9215 1900 9425 1900
+Text Label 9425 1900 2    60   ~ 0
++3V3
+Wire Wire Line
+	9495 1800 9215 1800
+Wire Wire Line
+	9495 1800 9495 2015
+$Comp
+L GND #PWR05
+U 1 1 5968D910
+P 9495 2015
+F 0 "#PWR05" H 9495 1765 50  0001 C CNN
+F 1 "GND" H 9500 1842 50  0000 C CNN
+F 2 "" H 9495 2015 50  0001 C CNN
+F 3 "" H 9495 2015 50  0001 C CNN
+	1    9495 2015
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8715 1500 8505 1500
+Text Label 8505 1500 0    60   ~ 0
+PMC1
+Wire Wire Line
+	8715 1600 8505 1600
+Text Label 8505 1600 0    60   ~ 0
+PMC2
+Wire Wire Line
+	8715 1700 8505 1700
+Text Label 8505 1700 0    60   ~ 0
+PMC3
+Wire Wire Line
+	8435 1800 8715 1800
+Wire Wire Line
+	8715 1900 8505 1900
+Text Label 8505 1900 0    60   ~ 0
++3V3
+Wire Wire Line
+	8715 1400 8505 1400
+Text Label 8505 1400 0    60   ~ 0
+PMC0
+Wire Wire Line
+	8435 1800 8435 2015
+$Comp
+L GND #PWR06
+U 1 1 5968D98B
+P 8435 2015
+F 0 "#PWR06" H 8435 1765 50  0001 C CNN
+F 1 "GND" H 8440 1842 50  0000 C CNN
+F 2 "" H 8435 2015 50  0001 C CNN
+F 3 "" H 8435 2015 50  0001 C CNN
+	1    8435 2015
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9175 2605 9385 2605
+Text Label 9385 2605 2    60   ~ 0
+PMD5
+Wire Wire Line
+	9175 2505 9385 2505
+Text Label 9385 2505 2    60   ~ 0
+PMD4
+Wire Wire Line
+	9175 2805 9385 2805
+Text Label 9385 2805 2    60   ~ 0
+PMD7
+Wire Wire Line
+	9175 2705 9385 2705
+Text Label 9385 2705 2    60   ~ 0
+PMD6
+Wire Wire Line
+	9175 3005 9385 3005
+Text Label 9385 3005 2    60   ~ 0
++3V3
+Wire Wire Line
+	9455 2905 9175 2905
+Wire Wire Line
+	9455 2905 9455 3120
+$Comp
+L GND #PWR07
+U 1 1 5968DA70
+P 9455 3120
+F 0 "#PWR07" H 9455 2870 50  0001 C CNN
+F 1 "GND" H 9460 2947 50  0000 C CNN
+F 2 "" H 9455 3120 50  0001 C CNN
+F 3 "" H 9455 3120 50  0001 C CNN
+	1    9455 3120
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 2605 8465 2605
+Text Label 8465 2605 0    60   ~ 0
+PMD1
+Wire Wire Line
+	8675 2705 8465 2705
+Text Label 8465 2705 0    60   ~ 0
+PMD2
+Wire Wire Line
+	8675 2805 8465 2805
+Text Label 8465 2805 0    60   ~ 0
+PMD3
+Wire Wire Line
+	8395 2905 8675 2905
+Wire Wire Line
+	8675 3005 8465 3005
+Text Label 8465 3005 0    60   ~ 0
++3V3
+Wire Wire Line
+	8675 2505 8465 2505
+Text Label 8465 2505 0    60   ~ 0
+PMD0
+Wire Wire Line
+	8395 2905 8395 3120
+$Comp
+L GND #PWR08
+U 1 1 5968DACF
+P 8395 3120
+F 0 "#PWR08" H 8395 2870 50  0001 C CNN
+F 1 "GND" H 8400 2947 50  0000 C CNN
+F 2 "" H 8395 3120 50  0001 C CNN
+F 3 "" H 8395 3120 50  0001 C CNN
+	1    8395 3120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8665 3760 8455 3760
+Text Label 8455 3760 0    60   ~ 0
+PME1
+Wire Wire Line
+	8665 3860 8455 3860
+Text Label 8455 3860 0    60   ~ 0
+PME2
+Wire Wire Line
+	8665 3960 8455 3960
+Text Label 8455 3960 0    60   ~ 0
+PME3
+Wire Wire Line
+	8385 4060 8665 4060
+Wire Wire Line
+	8665 4160 8455 4160
+Text Label 8455 4160 0    60   ~ 0
++3V3
+Wire Wire Line
+	8665 3660 8455 3660
+Text Label 8455 3660 0    60   ~ 0
+PME0
+Wire Wire Line
+	8385 4060 8385 4275
+$Comp
+L GND #PWR09
+U 1 1 5968DBAD
+P 8385 4275
+F 0 "#PWR09" H 8385 4025 50  0001 C CNN
+F 1 "GND" H 8390 4102 50  0000 C CNN
+F 2 "" H 8385 4275 50  0001 C CNN
+F 3 "" H 8385 4275 50  0001 C CNN
+	1    8385 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9165 3760 9375 3760
+Text Label 9375 3760 2    60   ~ 0
+PME5
+Wire Wire Line
+	9165 3660 9375 3660
+Text Label 9375 3660 2    60   ~ 0
+PME4
+Wire Wire Line
+	9165 3960 9375 3960
+Text Label 9375 3960 2    60   ~ 0
+PME7
+Wire Wire Line
+	9165 3860 9375 3860
+Text Label 9375 3860 2    60   ~ 0
+PME6
+Wire Wire Line
+	9165 4160 9375 4160
+Text Label 9375 4160 2    60   ~ 0
++3V3
+Wire Wire Line
+	9445 4060 9165 4060
+Wire Wire Line
+	9445 4060 9445 4275
+$Comp
+L GND #PWR010
+U 1 1 5968DBF0
+P 9445 4275
+F 0 "#PWR010" H 9445 4025 50  0001 C CNN
+F 1 "GND" H 9450 4102 50  0000 C CNN
+F 2 "" H 9445 4275 50  0001 C CNN
+F 3 "" H 9445 4275 50  0001 C CNN
+	1    9445 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4960 3910 4960
+Text Label 3910 4960 2    60   ~ 0
++3V3
+Wire Wire Line
+	3700 4760 3910 4760
+Text Label 3910 4760 2    60   ~ 0
+PME7
+Wire Wire Line
+	3700 4660 3910 4660
+Text Label 3910 4660 2    60   ~ 0
+PME6
+Wire Wire Line
+	3700 4560 3910 4560
+Text Label 3910 4560 2    60   ~ 0
+PME5
+Wire Wire Line
+	3700 4460 3910 4460
+Text Label 3910 4460 2    60   ~ 0
+PME4
+Wire Wire Line
+	3700 4360 3910 4360
+Text Label 3910 4360 2    60   ~ 0
++3V3
+Wire Wire Line
+	3700 4160 3910 4160
+Text Label 3910 4160 2    60   ~ 0
+PME3
+Wire Wire Line
+	3700 4060 3910 4060
+Text Label 3910 4060 2    60   ~ 0
+PME2
+Wire Wire Line
+	3700 3960 3910 3960
+Text Label 3910 3960 2    60   ~ 0
+PME1
+Wire Wire Line
+	3700 3860 3910 3860
+Text Label 3910 3860 2    60   ~ 0
+PME0
+Wire Wire Line
+	3980 4860 3700 4860
+Wire Wire Line
+	3980 4860 3980 5075
+$Comp
+L GND #PWR011
+U 1 1 59718757
+P 3980 5075
+F 0 "#PWR011" H 3980 4825 50  0001 C CNN
+F 1 "GND" H 3985 4902 50  0000 C CNN
+F 2 "" H 3980 5075 50  0001 C CNN
+F 3 "" H 3980 5075 50  0001 C CNN
+	1    3980 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3980 4260 3700 4260
+Wire Wire Line
+	3980 4260 3980 4475
+$Comp
+L GND #PWR012
+U 1 1 59718797
+P 3980 4475
+F 0 "#PWR012" H 3980 4225 50  0001 C CNN
+F 1 "GND" H 3985 4302 50  0000 C CNN
+F 2 "" H 3980 4475 50  0001 C CNN
+F 3 "" H 3980 4475 50  0001 C CNN
+	1    3980 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3760 3910 3760
+Text Label 3910 3760 2    60   ~ 0
++3V3
+Wire Wire Line
+	3980 3660 3700 3660
+Wire Wire Line
+	3980 3660 3980 3875
+$Comp
+L GND #PWR013
+U 1 1 5971881F
+P 3980 3875
+F 0 "#PWR013" H 3980 3625 50  0001 C CNN
+F 1 "GND" H 3985 3702 50  0000 C CNN
+F 2 "" H 3980 3875 50  0001 C CNN
+F 3 "" H 3980 3875 50  0001 C CNN
+	1    3980 3875
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3560 3910 3560
+Text Label 3910 3560 2    60   ~ 0
+PMD7
+Wire Wire Line
+	3700 3460 3910 3460
+Text Label 3910 3460 2    60   ~ 0
+PMD6
+Wire Wire Line
+	3700 3360 3910 3360
+Text Label 3910 3360 2    60   ~ 0
+PMD5
+Wire Wire Line
+	3700 3260 3910 3260
+Text Label 3910 3260 2    60   ~ 0
+PMD4
+Wire Wire Line
+	3700 3160 3910 3160
+Text Label 3910 3160 2    60   ~ 0
++3V3
+Wire Wire Line
+	3700 3060 3910 3060
+Text Label 3910 3060 2    60   ~ 0
++3V3
+Wire Wire Line
+	3980 2960 3700 2960
+Wire Wire Line
+	3980 2960 3980 3175
+$Comp
+L GND #PWR014
+U 1 1 59718988
+P 3980 3175
+F 0 "#PWR014" H 3980 2925 50  0001 C CNN
+F 1 "GND" H 3845 3105 50  0000 C CNN
+F 2 "" H 3980 3175 50  0001 C CNN
+F 3 "" H 3980 3175 50  0001 C CNN
+	1    3980 3175
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2860 4040 2860
+Wire Wire Line
+	4040 2860 4040 3075
+$Comp
+L GND #PWR015
+U 1 1 5971899E
+P 4040 3075
+F 0 "#PWR015" H 4040 2825 50  0001 C CNN
+F 1 "GND" H 3910 3010 50  0000 C CNN
+F 2 "" H 4040 3075 50  0001 C CNN
+F 3 "" H 4040 3075 50  0001 C CNN
+	1    4040 3075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2760 3910 2760
+Text Label 3910 2760 2    60   ~ 0
+PMD3
+Wire Wire Line
+	3700 2660 3910 2660
+Text Label 3910 2660 2    60   ~ 0
+PMD2
+Wire Wire Line
+	3700 2560 3910 2560
+Text Label 3910 2560 2    60   ~ 0
+PMD1
+Wire Wire Line
+	3700 2460 3910 2460
+Text Label 3910 2460 2    60   ~ 0
+PMD0
+Wire Wire Line
+	3700 2360 3910 2360
+Text Label 3910 2360 2    60   ~ 0
++3V3
+Wire Wire Line
+	3980 2260 3700 2260
+Wire Wire Line
+	3980 2260 3980 2475
+$Comp
+L GND #PWR016
+U 1 1 59718AD6
+P 3980 2475
+F 0 "#PWR016" H 3980 2225 50  0001 C CNN
+F 1 "GND" H 3850 2410 50  0000 C CNN
+F 2 "" H 3980 2475 50  0001 C CNN
+F 3 "" H 3980 2475 50  0001 C CNN
+	1    3980 2475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2160 3910 2160
+Text Label 3910 2160 2    60   ~ 0
+PMC7
+Wire Wire Line
+	3700 2060 3910 2060
+Text Label 3910 2060 2    60   ~ 0
+PMC6
+Wire Wire Line
+	3700 1960 3910 1960
+Text Label 3910 1960 2    60   ~ 0
+PMC5
+Wire Wire Line
+	3700 1860 3910 1860
+Text Label 3910 1860 2    60   ~ 0
+PMC4
+Wire Wire Line
+	3700 1760 3910 1760
+Text Label 3910 1760 2    60   ~ 0
++3V3
+Wire Wire Line
+	3980 1660 3700 1660
+Wire Wire Line
+	3980 1660 3980 1875
+$Comp
+L GND #PWR017
+U 1 1 59718EF8
+P 3980 1875
+F 0 "#PWR017" H 3980 1625 50  0001 C CNN
+F 1 "GND" H 3850 1820 50  0000 C CNN
+F 2 "" H 3980 1875 50  0001 C CNN
+F 3 "" H 3980 1875 50  0001 C CNN
+	1    3980 1875
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 4960 1400 4960
+Text Label 1400 4960 0    60   ~ 0
++3V3
+Wire Wire Line
+	1610 4760 1400 4760
+Text Label 1400 4760 0    60   ~ 0
+PMB0
+Wire Wire Line
+	1610 4660 1400 4660
+Text Label 1400 4660 0    60   ~ 0
+PMB1
+Wire Wire Line
+	1610 4560 1400 4560
+Text Label 1400 4560 0    60   ~ 0
+PMB2
+Wire Wire Line
+	1610 4460 1400 4460
+Text Label 1400 4460 0    60   ~ 0
+PMB3
+Wire Wire Line
+	1610 4360 1400 4360
+Text Label 1400 4360 0    60   ~ 0
++3V3
+Wire Wire Line
+	1610 4160 1400 4160
+Text Label 1400 4160 0    60   ~ 0
+PMB4
+Wire Wire Line
+	1610 4060 1400 4060
+Text Label 1400 4060 0    60   ~ 0
+PMB5
+Wire Wire Line
+	1610 3960 1400 3960
+Text Label 1400 3960 0    60   ~ 0
+PMB6
+Wire Wire Line
+	1610 3860 1400 3860
+Text Label 1400 3860 0    60   ~ 0
+PMB7
+Wire Wire Line
+	1330 4860 1610 4860
+Wire Wire Line
+	1330 4860 1330 5075
+$Comp
+L GND #PWR018
+U 1 1 5971922F
+P 1330 5075
+F 0 "#PWR018" H 1330 4825 50  0001 C CNN
+F 1 "GND" H 1335 4902 50  0000 C CNN
+F 2 "" H 1330 5075 50  0001 C CNN
+F 3 "" H 1330 5075 50  0001 C CNN
+	1    1330 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1330 4260 1610 4260
+Wire Wire Line
+	1330 4260 1330 4475
+$Comp
+L GND #PWR019
+U 1 1 59719237
+P 1330 4475
+F 0 "#PWR019" H 1330 4225 50  0001 C CNN
+F 1 "GND" H 1335 4302 50  0000 C CNN
+F 2 "" H 1330 4475 50  0001 C CNN
+F 3 "" H 1330 4475 50  0001 C CNN
+	1    1330 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 3760 1400 3760
+Text Label 1400 3760 0    60   ~ 0
++3V3
+Wire Wire Line
+	1330 3660 1610 3660
+Wire Wire Line
+	1330 3660 1330 3875
+$Comp
+L GND #PWR020
+U 1 1 59719241
+P 1330 3875
+F 0 "#PWR020" H 1330 3625 50  0001 C CNN
+F 1 "GND" H 1335 3702 50  0000 C CNN
+F 2 "" H 1330 3875 50  0001 C CNN
+F 3 "" H 1330 3875 50  0001 C CNN
+	1    1330 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 3560 1400 3560
+Text Label 1400 3560 0    60   ~ 0
+PMA0
+Wire Wire Line
+	1610 3460 1400 3460
+Text Label 1400 3460 0    60   ~ 0
+PMA1
+Wire Wire Line
+	1610 3360 1400 3360
+Text Label 1400 3360 0    60   ~ 0
+PMA2
+Wire Wire Line
+	1610 3260 1400 3260
+Text Label 1400 3260 0    60   ~ 0
+PMA3
+Wire Wire Line
+	1610 3160 1400 3160
+Text Label 1400 3160 0    60   ~ 0
++3V3
+Wire Wire Line
+	1610 3060 1400 3060
+Text Label 1400 3060 0    60   ~ 0
++3V3
+Wire Wire Line
+	1330 2960 1610 2960
+Wire Wire Line
+	1330 2960 1330 3175
+$Comp
+L GND #PWR021
+U 1 1 59719255
+P 1330 3175
+F 0 "#PWR021" H 1330 2925 50  0001 C CNN
+F 1 "GND" H 1195 3105 50  0000 C CNN
+F 2 "" H 1330 3175 50  0001 C CNN
+F 3 "" H 1330 3175 50  0001 C CNN
+	1    1330 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 2860 1270 2860
+Wire Wire Line
+	1270 2860 1270 3075
+$Comp
+L GND #PWR022
+U 1 1 5971925D
+P 1270 3075
+F 0 "#PWR022" H 1270 2825 50  0001 C CNN
+F 1 "GND" H 1140 3010 50  0000 C CNN
+F 2 "" H 1270 3075 50  0001 C CNN
+F 3 "" H 1270 3075 50  0001 C CNN
+	1    1270 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 2760 1400 2760
+Text Label 1400 2760 0    60   ~ 0
+PMA4
+Wire Wire Line
+	1610 2660 1400 2660
+Text Label 1400 2660 0    60   ~ 0
+PMA5
+Wire Wire Line
+	1610 2560 1400 2560
+Text Label 1400 2560 0    60   ~ 0
+PMA6
+Wire Wire Line
+	1610 2460 1400 2460
+Text Label 1400 2460 0    60   ~ 0
+PMA7
+Wire Wire Line
+	1610 2360 1400 2360
+Text Label 1400 2360 0    60   ~ 0
++3V3
+Wire Wire Line
+	1330 2260 1610 2260
+Wire Wire Line
+	1330 2260 1330 2475
+$Comp
+L GND #PWR023
+U 1 1 5971926F
+P 1330 2475
+F 0 "#PWR023" H 1330 2225 50  0001 C CNN
+F 1 "GND" H 1200 2410 50  0000 C CNN
+F 2 "" H 1330 2475 50  0001 C CNN
+F 3 "" H 1330 2475 50  0001 C CNN
+	1    1330 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1610 2160 1400 2160
+Text Label 1400 2160 0    60   ~ 0
+PMC0
+Wire Wire Line
+	1610 2060 1400 2060
+Text Label 1400 2060 0    60   ~ 0
+PMC1
+Wire Wire Line
+	1610 1960 1400 1960
+Text Label 1400 1960 0    60   ~ 0
+PMC2
+Wire Wire Line
+	1610 1860 1400 1860
+Text Label 1400 1860 0    60   ~ 0
+PMC3
+Wire Wire Line
+	1610 1760 1400 1760
+Text Label 1400 1760 0    60   ~ 0
++3V3
+Wire Wire Line
+	1330 1660 1610 1660
+Wire Wire Line
+	1330 1660 1330 1875
+$Comp
+L GND #PWR024
+U 1 1 59719281
+P 1330 1875
+F 0 "#PWR024" H 1330 1625 50  0001 C CNN
+F 1 "GND" H 1200 1820 50  0000 C CNN
+F 2 "" H 1330 1875 50  0001 C CNN
+F 3 "" H 1330 1875 50  0001 C CNN
+	1    1330 1875
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

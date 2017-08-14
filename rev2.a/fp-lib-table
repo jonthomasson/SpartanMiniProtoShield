@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name spartan-mini)(type KiCad)(uri "$(KIPRJMOD)/spartan-mini.pretty")(options "")(descr ""))
+  (lib (name proto_pad)(type KiCad)(uri "$(KIPRJMOD)/libs/proto_pad.pretty")(options "")(descr ""))
+  (lib (name socket_strip)(type KiCad)(uri "$(KIPRJMOD)/libs/socket_strip.pretty")(options "")(descr ""))
+)
